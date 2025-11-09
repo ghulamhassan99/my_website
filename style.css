@@ -78,7 +78,7 @@ a:hover {
 /* navbar END  */
 
 /* mobile k liye veiw    nav bar  */
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:480px) {
   nav {
     display: flex;
     max-width: 100%;
