@@ -135,7 +135,7 @@ a:hover {
 /* mobile k liye veiw nav bar end  */
 
 /* HERO SECTION START */
-.main {
+/*.main {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -281,7 +281,7 @@ a:hover {
 /* HERO SECTION END */
 
 /* HERO SECTION MEDIA QUERY START */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:768px) {
   .main {
     display: flex;
     justify-content: center;
@@ -489,7 +489,7 @@ p .child_link i {
 }
 
 /* LINK BAR SECTION END */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:768PX) {
   .linkbar {
     width: 85%;
     height: 120px;
@@ -731,11 +731,10 @@ footer .social_links span a {
 }
 
 /* ITEMS SECTION END  */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:768px) {
   .main_last {
-  width: 124.4%;
+  width: 124%;
   height: auto;
-  /* background-color: #2d2d96; */
   display: flex;
   flex-direction: column;
   position: relative;
@@ -869,4 +868,4 @@ table {
   margin: auto;
 }
 
-}
+} 
